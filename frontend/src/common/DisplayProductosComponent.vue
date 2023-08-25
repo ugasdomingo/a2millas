@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
-import { IProducts } from '@/interface/IProducts';
+import { IProducts } from '../interface/IProducts';
 
 defineProps({
     products: {

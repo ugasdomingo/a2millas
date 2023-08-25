@@ -1,7 +1,7 @@
 <script setup lang="ts">
 //Import tools
-import { productsInfo } from '@/static/productsInfo';
-import DisplayProductosComponent from '@/common/DisplayProductosComponent.vue';
+import { productsInfo } from '../static/productsInfo';
+import DisplayProductosComponent from '../common/DisplayProductosComponent.vue';
 </script>
 
 <template>

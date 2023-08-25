@@ -3,7 +3,7 @@
 import { RouterView } from 'vue-router';
 
 //Import components
-import HeaderComponent from '@/layout/HeaderComponent.vue';
+import HeaderComponent from './layout/HeaderComponent.vue';
 </script>
 
 <template>
