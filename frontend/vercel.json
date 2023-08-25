@@ -1,18 +1,3 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "vite.config.js"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "/$1",
-            "rewrite": {
-                "source": "/@/(.*)",
-                "destination": "/src/$1"
-            }
-        }
-    ]
+    "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
 }
