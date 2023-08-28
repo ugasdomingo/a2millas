@@ -34,7 +34,7 @@ const paths = [
 <template>
     <header class="header" :class="{ 'background-white': backgroundWhite }">
         <RouterLink to="/">
-            <img class="logo" src="/logo.png" alt="logo" />
+            <img class="logo" src="" alt="logo" />
         </RouterLink>
         <nav>
             <ul>

@@ -5,7 +5,7 @@
         <h2>Entregas en todo Perú</h2>
         <div class="about-content">
             <section class="left-content">
-                <img src="public/img/tractor-diseno.webp" alt="about-tractor" />
+                <img src="../../public/img/tractorDiseno.webp" alt="about-tractor" />
                 <h4>¡Calidad Europea!</h4>
             </section>
             <section class="right-content">
@@ -15,7 +15,7 @@
                     de tu inversión.
                 </p>
                 <a href="tel:">
-                    <img src="public/phone-icon.svg" alt="phon-icon" class="icon" />
+                    <img src="../../public/phone-icon.svg" alt="phon-icon" class="icon" />
                     +51 912 213 456
                 </a>
             </section>

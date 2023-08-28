@@ -5,22 +5,22 @@
         <div class="carousel-container">
             <div class="carousel">
                 <div class="carousel-item">
-                    <img src="public/img/logo1.webp" alt="tractor" />
+                    <img src="../../public/img/logo1.webp" alt="tractor" />
                 </div>
                 <div class="carousel-item">
-                    <img src="public/img/logo2.webp" alt="tractor" />
+                    <img src="../../public/img/logo2.webp" alt="tractor" />
                 </div>
                 <div class="carousel-item">
-                    <img src="public/img/logo3.webp" alt="tractor" />
+                    <img src="../../public/img/logo3.webp" alt="tractor" />
                 </div>
                 <div class="carousel-item">
-                    <img src="public/img/logo4.webp" alt="tractor" />
+                    <img src="../../public/img/logo4.webp" alt="tractor" />
                 </div>
                 <div class="carousel-item">
-                    <img src="public/img/logo5.webp" alt="tractor" />
+                    <img src="../../public/img/logo5.webp" alt="tractor" />
                 </div>
                 <div class="carousel-item">
-                    <img src="public/img/logo6.webp" alt="tractor" />
+                    <img src="../../public/img/logo6.webp" alt="tractor" />
                 </div>
             </div>
         </div>

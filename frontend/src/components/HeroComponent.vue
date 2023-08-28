@@ -5,15 +5,15 @@ import { RouterLink } from 'vue-router';
 <template>
     <section class="hero-container">
         <!-- Hero Background Image -->
-        <img src="public/img/hero.webp" alt="hero-image" class="hero-img-big" />
+        <img src="../../public/img/hero.webp" alt="hero-image" class="hero-img-big" />
 
         <!-- Hero text -->
         <h1>Maquinaria<br />Agroindustrial</h1>
         <RouterLink to="/products">Ver productos</RouterLink>
 
         <!-- Hero animation Image -->
-        <img src="public/img/tractor1.webp" alt="truck1" class="truck-one" />
-        <img src="public/img/tractor2.webp" alt="truck2" class="truck-two" />
+        <img src="../../public/img/tractor1.webp" alt="truck1" class="truck-one" />
+        <img src="../../public/img/tractor2.webp" alt="truck2" class="truck-two" />
     </section>
 </template>
 
