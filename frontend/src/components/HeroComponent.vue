@@ -12,8 +12,8 @@ import { RouterLink } from 'vue-router';
         <RouterLink to="/products">Ver productos</RouterLink>
 
         <!-- Hero animation Image -->
-        <img src="../../public/img/tractor1.webp" alt="truck1" class="truck-one" />
-        <img src="../../public/img/tractor2.webp" alt="truck2" class="truck-two" />
+        <img src="../assets/tractor1.webp" alt="truck1" class="truck-one" />
+        <img src="../assets/tractor2.webp" alt="truck2" class="truck-two" />
     </section>
 </template>
 
