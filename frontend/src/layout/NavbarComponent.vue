@@ -8,7 +8,6 @@ defineProps({
 });
 
 const paths = [
-    { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Products', path: '/products' }
 ];
@@ -27,35 +26,43 @@ const paths = [
 <style scoped lang="scss">
 .normal-menu {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
     ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: right;
         align-items: center;
+        gap: 1.25rem;
         width: 100%;
         height: 100%;
-        margin: 0 auto;
+        margin: 0;
         padding: 0;
         box-sizing: border-box;
 
         li {
             list-style: none;
-            font-size: 1.5rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.1rem;
+            font-size: 1.25rem;
             color: var(--color-tertiary);
             transition: all 0.3s ease-in-out;
 
             &:hover {
                 color: var(--color-primary);
+            }
+        }
+
+        a {
+            color: var(--color-tertiary);
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+
+            &:hover {
+                color: var(--color-white);
+                background-color: var(--color-tertiary);
             }
         }
     }

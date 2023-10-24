@@ -111,6 +111,7 @@ import { RouterLink } from 'vue-router';
 @media (max-width: 768px) {
     .hero-container {
         box-sizing: border-box;
+        max-height: 100vh;
         h1 {
             font-size: 3rem;
         }

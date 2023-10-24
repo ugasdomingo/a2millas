@@ -51,16 +51,22 @@ onUnmounted(() => {
 <style scoped lang="scss">
 .header {
     width: 100%;
+    max-height: 10vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: transparent;
-    padding: 0.5rem;
-    margin: 0 auto;
+    padding: 1rem 4rem;
+    margin: 0;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 20;
     box-sizing: border-box;
+
+    .normal-menu {
+        width: 100%;
+    }
 
     .hamburguer-menu {
         display: none;
@@ -78,11 +84,9 @@ onUnmounted(() => {
 .background-white {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 0 1em var(--color-tertiary);
-    padding: 0;
 
     .logo {
         filter: drop-shadow(0 0 2rem #646cffaa);
-        padding: 0;
         margin: 0;
     }
 }

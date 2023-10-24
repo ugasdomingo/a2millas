@@ -4,7 +4,7 @@ export const productsInfo = [
         name: 'Product 1',
         price: 100,
         description: 'Product 1 description',
-        image: 'src/assets/tractor1.webp',
+        image: '../assets/tractor1.webp',
         category: 'Tractor'
     },
     {
@@ -12,7 +12,7 @@ export const productsInfo = [
         name: 'Product 2',
         price: 200,
         description: 'Product 2 description',
-        image: 'src/assets/tractor2.webp',
+        image: '../assets/tractor2.webp',
         category: 'Tractor con palas'
     },
     {
@@ -20,7 +20,7 @@ export const productsInfo = [
         name: 'Product 3',
         price: 300,
         description: 'Product 3 description',
-        image: 'src/assets/tractor1.webp',
+        image: '../assets/tractor1.webp',
         category: 'Tractor'
     },
     {
