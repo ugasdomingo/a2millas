@@ -12,8 +12,16 @@ import { RouterLink } from 'vue-router';
         <RouterLink to="/products">Catálogo de productos</RouterLink>
 
         <!-- Hero animation Image -->
-        <img src="../assets/tractor1.webp" alt="truck1" class="truck-one" />
-        <img src="../assets/tractor2.webp" alt="truck2" class="truck-two" />
+        <img
+            src="https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor1_e3elcd.webp"
+            alt="truck1"
+            class="truck-one"
+        />
+        <img
+            src="https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor2_dxb55m.webp"
+            alt="truck2"
+            class="truck-two"
+        />
     </section>
 </template>
 

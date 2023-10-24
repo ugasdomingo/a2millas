@@ -4,7 +4,7 @@ export const productsInfo = [
         name: 'Product 1',
         price: 100,
         description: 'Product 1 description',
-        image: '../assets/tractor1.webp',
+        image: 'https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor1_e3elcd.webp',
         category: 'Tractor'
     },
     {
@@ -12,7 +12,7 @@ export const productsInfo = [
         name: 'Product 2',
         price: 200,
         description: 'Product 2 description',
-        image: '../assets/tractor2.webp',
+        image: 'https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor2_dxb55m.webp',
         category: 'Tractor con palas'
     },
     {
@@ -20,7 +20,7 @@ export const productsInfo = [
         name: 'Product 3',
         price: 300,
         description: 'Product 3 description',
-        image: '../assets/tractor1.webp',
+        image: 'https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor1_e3elcd.webp',
         category: 'Tractor'
     },
     {
@@ -28,7 +28,7 @@ export const productsInfo = [
         name: 'Product 4',
         price: 400,
         description: 'Product 4 description',
-        image: 'src/assets/tractor2.webp',
+        image: 'https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor2_dxb55m.webp',
         category: 'Tractor con palas'
     },
     {
@@ -36,7 +36,7 @@ export const productsInfo = [
         name: 'Product 5',
         price: 500,
         description: 'Product 5 description',
-        image: 'src/assets/tractor1.webp',
+        image: 'https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor1_e3elcd.webp',
         category: 'Tractor'
     },
     {
@@ -44,7 +44,7 @@ export const productsInfo = [
         name: 'Product 6',
         price: 600,
         description: 'Product 6 description',
-        image: 'src/assets/tractor2.webp',
+        image: 'https://res.cloudinary.com/minteados/image/upload/v1698176937/a2milla/tractor2_dxb55m.webp',
         category: 'Tractor con palas'
     }
 ];
