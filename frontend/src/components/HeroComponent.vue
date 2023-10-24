@@ -9,7 +9,7 @@ import { RouterLink } from 'vue-router';
 
         <!-- Hero text -->
         <h1>Maquinaria<br />Agroindustrial</h1>
-        <RouterLink to="/products">Ver productos</RouterLink>
+        <RouterLink to="/products">Catálogo de productos</RouterLink>
 
         <!-- Hero animation Image -->
         <img src="../assets/tractor1.webp" alt="truck1" class="truck-one" />
@@ -28,11 +28,11 @@ import { RouterLink } from 'vue-router';
     align-items: center;
     background: linear-gradient(
         0deg,
-        rgba(255, 255, 0, 0.7) 0%,
-        rgba(255, 255, 0, 0.8) 60%,
-        rgba(255, 255, 0, 1) 100%
+        rgba(7, 58, 89, 1) 0%,
+        rgba(7, 58, 89, 0.5) 60%,
+        rgba(7, 58, 89, 0.2) 100%
     );
-    color: var(--color-primary);
+    color: var(--color-tertiary);
     overflow: hidden;
 
     h1 {
@@ -44,14 +44,14 @@ import { RouterLink } from 'vue-router';
     a {
         padding: 1rem 2rem;
         border-radius: 2rem;
-        background: var(--color-primary);
-        color: var(--color-white);
+        background: var(--color-tertiary);
+        color: var(--color-primary);
         font-weight: 700;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
 
         &:hover {
-            background: var(--color-accent);
+            background: var(--color-primary);
         }
     }
 }
@@ -105,6 +105,43 @@ import { RouterLink } from 'vue-router';
     }
     100% {
         transform: translateX(-10%);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        box-sizing: border-box;
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    .truck-one {
+        max-width: 150px;
+        left: 0.2rem;
+    }
+
+    .truck-two {
+        max-width: 250px;
+        right: -0.2rem;
+    }
+
+    @keyframes truck-one {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes truck-two {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
     }
 }
 </style>

@@ -14,16 +14,14 @@ import HeaderComponent from './layout/HeaderComponent.vue';
 </template>
 
 <style scoped>
-.logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+main {
+    width: 100%;
+    box-sizing: border-box;
 }
-.logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-    filter: drop-shadow(0 0 2em #42b883aa);
+
+@media (min-width: 768px) {
+    main {
+        margin: 0 auto;
+    }
 }
 </style>

@@ -38,6 +38,7 @@
         rgba(255, 255, 0, 0.8) 60%,
         rgba(255, 255, 0, 1) 100%
     );
+    overflow: hidden;
 }
 
 .carousel-container {
@@ -67,5 +68,18 @@
     }
 }
 
-//animacion
+@media (max-width: 768px) {
+    .carousel {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem 0;
+        margin: 0 auto;
+
+        .carousel-item {
+            width: 100%;
+            height: 100px;
+            margin: 0 1rem;
+        }
+    }
+}
 </style>

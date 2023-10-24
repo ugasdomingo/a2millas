@@ -36,6 +36,7 @@ defineProps({
     position: relative;
     background-color: var(--color-tertiary);
     padding: 1rem;
+    border-radius: 0.5rem;
 
     img {
         width: 100%;

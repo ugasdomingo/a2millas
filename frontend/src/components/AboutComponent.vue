@@ -25,12 +25,13 @@
 
 <style scoped lang="scss">
 .about-container {
-    padding: 2rem 0;
+    padding: 8rem 0;
     text-align: center;
     color: var(--color-primary);
+    box-sizing: border-box;
 
     h2 {
-        margin-bottom: 2rem;
+        margin: 0 0 2.5rem;
     }
 }
 
@@ -89,5 +90,22 @@
 .icon {
     width: 1.5rem;
     margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        padding: 0 1rem;
+
+        .left-content {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .right-content {
+            width: 100%;
+            padding: 0;
+        }
+    }
 }
 </style>
