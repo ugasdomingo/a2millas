@@ -1,7 +1,24 @@
+<script setup lang="ts">
+//Import tools
+import { productsInfo } from '../static/productsInfo';
+import DisplayProductosComponent from '../common/DisplayProductosComponent.vue';
+</script>
+
 <template>
-    <main>
-        <h1>Products</h1>
+    <main class="products-container">
+        <DisplayProductosComponent :products="productsInfo" />
     </main>
 </template>
 
-<script setup lang="ts"></script>
+<style scoped lang="scss">
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 100vh;
+    padding: 6rem 0 0;
+    background-color: var(--color-gray);
+    box-sizing: border-box;
+}
+</style>

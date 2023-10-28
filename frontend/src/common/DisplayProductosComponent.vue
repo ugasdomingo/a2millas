@@ -48,7 +48,8 @@ const showModal = (id: number) => {
     width: 300px;
     position: relative;
     background-color: var(--color-tertiary);
-    padding: 1rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
 
@@ -56,6 +57,7 @@ const showModal = (id: number) => {
         width: 100%;
         height: 200px;
         object-fit: cover;
+        border-radius: 0.5rem;
     }
 
     h3 {

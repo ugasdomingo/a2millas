@@ -79,5 +79,28 @@ export const productsInfo: IProducts[] = [
             'https://cdn.wallapop.com/images/10420/eq/jt/__/c10420p891121567/i3230261192.jpg?pictureSize=W640'
         ],
         category: 'Excavadora'
+    },
+    {
+        id: 7,
+        name: 'Midi new holland kobelco de 8 toneladas',
+        price: 600,
+        description:
+            'Excavadora de 8 toneladas del año 2007, enganche semirápido, 3 cucharones, cuchilla, aire acondicionado, 5525 horas, diésel. NUNCA USADO EN PERÚ',
+        image: [
+            'https://cdn.wallapop.com/images/10420/ew/0g/__/c10420p900295639/i3280425697.jpg?pictureSize=W640'
+        ],
+        category: 'Excavadora'
+    },
+    {
+        id: 8,
+        name: 'TRACTOR FIAT 980 E DT',
+        price: 600,
+        description: 'Tractor con cabina, 98 CV. NUNCA USADO EN PERÚ',
+        image: [
+            'https://cdn.wallapop.com/images/10420/4v/bh/__/c10420p294468099/i1309565712.jpg?pictureSize=W640',
+            'https://cdn.wallapop.com/images/10420/4v/bh/__/c10420p294468099/i1309559884.jpg?pictureSize=W640',
+            'https://cdn.wallapop.com/images/10420/4v/bh/__/c10420p294468099/i1309586520.jpg?pictureSize=W640'
+        ],
+        category: 'Excavadora'
     }
 ];
