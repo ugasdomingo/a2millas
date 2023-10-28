@@ -1,22 +1,35 @@
 <script setup lang="ts">
 import { PropType } from 'vue';
 import { IProducts } from '../interface/IProducts';
+import { useUtilStore } from '../stores/util-store';
+import ModalOneProductComponent from './ModalOneProductComponent.vue';
 
+const utilStore = useUtilStore();
 defineProps({
     products: {
         type: Array as PropType<IProducts[]>,
         required: true
     }
 });
+
+const showModal = (id: number) => {
+    utilStore.showModal = id;
+};
 </script>
 
 <template>
     <div class="products-list">
-        <div class="products-list-item" v-for="product in products" :key="product.id">
-            <img :src="product.image" :alt="product.name" />
+        <div
+            class="products-list-item"
+            v-for="product in products"
+            :key="product.id"
+            @click="showModal(product.id)"
+        >
+            <img :src="product.image[0]" :alt="product.name" />
             <h3>{{ product.name }}</h3>
         </div>
     </div>
+    <ModalOneProductComponent class="modal" v-if="utilStore.showModal > 0" />
 </template>
 
 <style scoped lang="scss">
@@ -37,6 +50,7 @@ defineProps({
     background-color: var(--color-tertiary);
     padding: 1rem;
     border-radius: 0.5rem;
+    cursor: pointer;
 
     img {
         width: 100%;
