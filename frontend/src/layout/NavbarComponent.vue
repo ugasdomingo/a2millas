@@ -20,6 +20,9 @@ const paths = [
                 <RouterLink :to="path.path">{{ path.name }}</RouterLink>
             </li>
         </ul>
+        <a href="tel:">
+            <img src="../../public/phone-icon.svg" alt="phon-icon" class="icon" />
+        </a>
     </nav>
 </template>
 
@@ -66,6 +69,13 @@ const paths = [
             }
         }
     }
+}
+.icon {
+    width: 1.5rem;
+    background-color: var(--color-tertiary);
+    padding: 0.5rem;
+    border-radius: 20%;
+    margin-left: 1rem;
 }
 
 .responsive-menu {

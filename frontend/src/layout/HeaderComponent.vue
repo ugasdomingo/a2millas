@@ -43,7 +43,12 @@ onUnmounted(() => {
         <div class="hamburguer-menu">
             <img src="../assets/menu-icon.svg" alt="hamburguer-menu" @click="openMenu" />
 
-            <NavbarComponent :style="'responsive'" class="menu-responsive" v-if="showMenu" />
+            <NavbarComponent
+                :style="'responsive'"
+                class="menu-responsive"
+                v-if="showMenu"
+                @click="openMenu"
+            />
         </div>
     </header>
 </template>
@@ -91,7 +96,7 @@ onUnmounted(() => {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header {
         width: 100%;
         align-items: center;

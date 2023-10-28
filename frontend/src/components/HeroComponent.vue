@@ -60,6 +60,7 @@ import { RouterLink } from 'vue-router';
 
         &:hover {
             background: var(--color-primary);
+            color: var(--color-white);
         }
     }
 }
