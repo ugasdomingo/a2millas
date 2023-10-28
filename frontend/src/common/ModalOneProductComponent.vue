@@ -173,8 +173,9 @@ const closeModal = () => {
 @media screen and (max-width: 768px) {
     .modal {
         .modal-content {
-            width: 90%;
-            height: 90%;
+            width: 100%;
+            height: 100%;
+            padding: 0.5rem;
         }
 
         .modal-content-header {
@@ -183,14 +184,26 @@ const closeModal = () => {
             }
 
             a {
-                display: none;
+                font-size: 0.75rem;
+            }
+
+            button {
+                font-size: 1.5rem;
             }
         }
 
-        .modal-content-body .gallery {
-            img {
-                width: 100px;
-                height: 100px;
+        .modal-content-body {
+            .gallery {
+                flex-direction: column;
+
+                button {
+                    font-size: 0.75rem;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
     }
