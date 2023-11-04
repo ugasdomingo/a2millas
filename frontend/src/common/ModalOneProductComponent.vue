@@ -61,7 +61,7 @@ const closeModal = () => {
                 <h3>{{ product.name }}</h3>
                 <a href="tel:+51912213456">
                     <img src="../../public/phone-icon.svg" alt="phon-icon" class="icon" />
-                    Contactar
+                    Consultar Precio
                 </a>
                 <button @click="closeModal">X</button>
             </div>
@@ -72,7 +72,7 @@ const closeModal = () => {
                     <img :src="product.image[showImage]" :alt="product.name" />
                     <button @click="nextImage">Next</button>
                 </div>
-                <p>{{ product.description }}</p>
+                <p>{{ product.description }}. NUNCA USADO EN PERÚ, Encago contra pedido.</p>
             </div>
         </div>
     </div>
